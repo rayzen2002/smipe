@@ -171,8 +171,8 @@
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.addMissingImports": true
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "explicit"
     },
     "eslint.validate": [
       "javascript",
@@ -206,7 +206,6 @@
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.editor.untitled.hint": "hidden",
     "workbench.colorTheme": "Omni",
     "liveServer.settings.donotShowInfoMsg": true,
     "[json]": {
@@ -214,5 +213,6 @@
     },
     "window.commandCenter": true,
     "git.openRepositoryInParentFolders": "always",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 0,
+    "workbench.editor.empty.hint": "hidden"
   }
